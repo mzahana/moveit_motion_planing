@@ -8,7 +8,7 @@ project(moveit_motion_planing)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  geomtery_msgs
+  geometry_msgs
   moveit_msgs
   rospy
   std_msgs
@@ -106,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES moveit_motion_planing
-#  CATKIN_DEPENDS geomtery_msgs moveit_msgs rospy std_msgs
+#  CATKIN_DEPENDS geometry_msgs moveit_msgs rospy std_msgs
 #  DEPENDS system_lib
 )
 
